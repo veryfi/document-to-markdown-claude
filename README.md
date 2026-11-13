@@ -1,6 +1,6 @@
 # Veryfi Document to Markdown
 
-Turn PDFs, scanned images, and Office documents into clean, structured Markdown that Claude can read, quote, and reason over. The plugin connects Claude to Veryfi's document parsing API and adds a skill that teaches Claude how to send files to it and what to do with the result.
+Veryfi Document to Markdown converts PDFs, images, and Office files into structured Markdown that keeps headings, tables, and reading order. Attach a file, share a link, or use the integrated upload, and Claude sends it to Veryfi’s document parsing API and returns Markdown it can quote, summarize, and answer questions from. It handles invoices, receipts, contracts, and other documents up to 50 pages, and signs in with your Veryfi account, so no API keys are stored.
 
 ## What you can ask
 
