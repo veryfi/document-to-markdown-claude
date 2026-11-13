@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "veryfi": {
+      "type": "http",
+      "url": "https://api.veryfi.com/api/v8/partner/parse/mcp"
+    }
+  }
+}
