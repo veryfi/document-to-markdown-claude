@@ -1,0 +1,20 @@
+{
+  "name": "veryfi-document-to-markdown",
+  "description": "Convert PDFs, images, and Office documents into clean Markdown with Veryfi's document parsing API.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Veryfi",
+    "url": "https://www.veryfi.com"
+  },
+  "homepage": "https://www.veryfi.com",
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "pdf",
+    "ocr",
+    "document-parsing",
+    "invoice",
+    "receipt",
+    "veryfi"
+  ]
+}
