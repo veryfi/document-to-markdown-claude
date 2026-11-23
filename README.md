@@ -24,6 +24,16 @@ Claude chooses the right way to send the document, converts it, and either shows
 2. Connect the **veryfi** connector when prompted and sign in with your Veryfi account. No API keys are stored in the plugin.
 3. Optional: if Claude runs in a sandbox with restricted network access, allow `api.veryfi.com` in your Claude network settings so Claude can upload attached files for you. Otherwise Claude gives you a one-time upload link.
 
+## Gemini CLI
+
+This repository is also a Gemini CLI extension.
+
+```bash
+gemini extensions install https://github.com/veryfi/document-to-markdown-claude
+```
+
+Start Gemini CLI and run `/mcp auth veryfi` to sign in with your Veryfi account in the browser. Then ask Gemini to convert a document, for example "convert ./invoice.pdf to markdown".
+
 ## Supported documents and limits
 
 - PDF (including scanned), PNG, JPG, TIFF, HEIC and other common image formats, DOCX, XLSX, PPTX
