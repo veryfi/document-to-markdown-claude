@@ -1,0 +1,10 @@
+{
+  "name": "veryfi-document-to-markdown",
+  "version": "0.2.0",
+  "description": "Convert PDFs, images, and Office documents into clean Markdown with Veryfi's document parsing API.",
+  "mcpServers": {
+    "veryfi": {
+      "httpUrl": "https://api.veryfi.com/api/v8/partner/parse/mcp"
+    }
+  }
+}
